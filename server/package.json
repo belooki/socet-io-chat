@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belooki/socket-io-chat.git"
+  },
+  "author": "Andrew Belookiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belooki/socket-io-chat/issues"
+  },
+  "homepage": "https://github.com/belooki/socket-io-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6",
+    "socket.io": "^3.0.4"
+  }
+}
