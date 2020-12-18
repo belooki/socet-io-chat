@@ -1,0 +1,87 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 800px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotronForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+}
+
+.jumbotronMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 600px;
+  border: 2px solid #333;
+  border-radius: 555px 25px 15px 25px/25px 5px 35px 555px;
+  min-width: 500px;
+  max-width: 900px;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-grow: 1;
+  width: 90%;
+}
+
+.formMessage {
+  display: flex;
+  margin: 15px;
+  width: 90%;
+}
+
+.inputMessage {
+  display: flex;
+  flex-grow: 1;
+}
+
+.eachMessage {
+  width: fit-content;
+  text-align: right;
+  background-color: rgba(128, 128, 128, 0.472);
+  margin-top: 2px;
+  padding: 10px;
+  border-radius: 20px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: 0em;
+}
+
+p {
+  all: unset
+}
+
+.name {
+  color: #333;
+}
+
+.text {
+  font-size: 25px;
+}
+
+.scrollbars > div {
+  margin-top: 40px;
+
+}
+
+.scrollbars {
+  height: 400px;
+}
